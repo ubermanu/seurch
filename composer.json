@@ -1,0 +1,29 @@
+{
+    "name": "ubermanu/seurch",
+    "description": "Search engine proxy written in PHP",
+    "keywords": [
+        "search",
+        "engine",
+        "proxy",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emmanuel Vodor",
+            "email": "manu@paca.happy-dev.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Seurch\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8",
+        "ubermanu/traitor": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
